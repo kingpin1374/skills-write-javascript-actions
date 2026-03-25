@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+   // Existing scripts...
+  "build": "ncc build src/main.js -o dist"
   },
   "repository": {
     "type": "git",
